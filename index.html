@@ -2,8 +2,8 @@
 <html>
 <script>
 function getTime(){
-	var currentTime = new Date().toString();
-	docuement.getElementById("timer").innerHTML = currentTime;
+	var currentTime = new Date();
+	docuement.getElementById("timer").innerHTML = currentTime.toLocaleString();
 }
 </script>
 <body>
