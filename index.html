@@ -6,10 +6,10 @@ function getTime(){
 	docuement.getElementById("timer").innerHTML = currentTime.toLocaleString();
 }
 </script>
-<body>
+<body onload="getTime()">
 <h1>Welcome to yingnathan.com</h1>
 <p>Big things to come.</p>
-<p id="timer" onload="getTime()"></p>
+<p id="timer"></p>
 
 </body>
 </html>
