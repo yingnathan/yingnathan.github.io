@@ -2,6 +2,9 @@
 	font-family: 'Pacifico', cursive;
 	color: #5252e0;
 }
+body {
+	margin: 0;
+}
 
 #content {
     width: 80vw;
