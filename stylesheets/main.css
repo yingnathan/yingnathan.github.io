@@ -1,0 +1,10 @@
+* {
+	font-family: 'Pacifico', cursive;
+	color: #5252e0;
+}
+
+#content {
+    min-width: 400px;
+    margin: 0 auto;
+    background-color: #66ffff;
+}
