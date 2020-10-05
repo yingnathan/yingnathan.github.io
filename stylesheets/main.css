@@ -14,3 +14,7 @@
 	-o-user-select: none;
 	user-select: none;
 }
+
+h1 {
+	font-size: min(14vw, 4rem);
+}
