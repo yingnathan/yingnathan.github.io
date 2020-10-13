@@ -2,6 +2,9 @@
 	font-family: 'News Cycle', sans-serif;
 	color: #5252e0;
 }
+.secondary {
+	color: #DCCEC0;
+}
 body {
 	margin: 0;
 	font-size: min(12vw, 2rem);
@@ -52,5 +55,9 @@ h1 {
 }
 
 .header {
-	background-color:
+	background-color: #DCCEC0;
+	padding: 5px 10px 5px 10px;
+	position: sticky;
+	position: -webkit-sticky; /* Safari */
+	top: 0;
 }
