@@ -44,7 +44,6 @@ h1 {
 
 /* Style the iframe to fit full height and width */
 .responsive-iframe {
-  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
