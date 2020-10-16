@@ -66,16 +66,16 @@ h1 {
 }
 
 @keyframes color-me-in {
-  /* You could think of as "step 1" */
+  /* You could think of as "step 1" #E06A51 #7cc7c0*/
   0% {
-    background: #7cc7c0;
+    background: #E8D07F;
   }
 	50% {
-		background: #E06A51;
+		background: #5252E0;
 	}
   /* You could think of as "step 2" */
   100% {
-    background: #7cc7c0;
+    background: #E8D07F;
   }
 }
 
@@ -84,7 +84,7 @@ h1 {
 }
 
 @keyframes color-headerTitle-in {
-  /* You could think of as "step 1" */
+  /* You could think of as "step 1" #5252E0; #E8D07F */
   0% {
     color: #5252E0;
   }
