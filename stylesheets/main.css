@@ -71,7 +71,7 @@ h1 {
     background: #E8D07F;
   }
 	50% {
-		background: #5252E0;
+		background: #E06A51;
 	}
   /* You could think of as "step 2" */
   100% {
@@ -86,13 +86,13 @@ h1 {
 @keyframes color-headerTitle-in {
   /* You could think of as "step 1" #5252E0; #E8D07F */
   0% {
-    color: #5252E0;
+    color: #E06A51;
   }
 	50% {
 		color: #E8D07F;
 	}
   /* You could think of as "step 2" */
   100% {
-    color: #5252E0;
+    color: #E06A51;
   }
 }
