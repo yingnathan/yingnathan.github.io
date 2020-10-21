@@ -62,28 +62,41 @@ h1 {
 	position: sticky;
 	position: -webkit-sticky; /* Safari */
 	top: 0;
-	animation: color-me-in 5s infinite; /* other keywords like "infinite alternate" can be useful here */
+	animation: headerAnimation 5s infinite;
 }
 
-@keyframes color-me-in {
-  /* You could think of as "step 1" #E06A51 #7cc7c0*/
+.footer {
+	padding: 3px;
+	font-size: 20px;
+	text-align: center;
+	height: 2.5rem;
+	width: 100%;
+	bottom: 0;
+}
+@keyframes headerAnimation {
   0% {
     background: #E8D07F;
   }
 	50% {
 		background: #E06A51;
 	}
-  /* You could think of as "step 2" */
   100% {
     background: #E8D07F;
   }
 }
 
-.headerTitle {
-	animation: color-headerTitle-in 5s infinite; /* other keywords like "infinite alternate" can be useful here */
+#footerContact {
+	text-decoration:none;
+	font-weight: bold;
 }
 
-@keyframes color-headerTitle-in {
+
+
+.headerTitle {
+	animation: headerTitleAnimation 5s infinite;
+}
+
+@keyframes headerTitleAnimation {
   /* You could think of as "step 1" #5252E0; #E8D07F */
   0% {
     color: #E06A51;
