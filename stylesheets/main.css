@@ -64,15 +64,6 @@ h1 {
 	top: 0;
 	animation: headerAnimation 5s infinite;
 }
-
-.footer {
-	padding: 3px;
-	font-size: 20px;
-	text-align: center;
-	height: 2.5rem;
-	width: 100%;
-	bottom: 0;
-}
 @keyframes headerAnimation {
   0% {
     background: #E8D07F;
@@ -85,12 +76,21 @@ h1 {
   }
 }
 
+.footer {
+	padding: 3px;
+	font-size: 20px;
+	text-align: center;
+	height: 2.5rem;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+}
+
+
 #footerContact {
 	text-decoration:none;
 	font-weight: bold;
 }
-
-
 
 .headerTitle {
 	animation: headerTitleAnimation 5s infinite;
