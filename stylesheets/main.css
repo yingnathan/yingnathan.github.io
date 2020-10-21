@@ -7,7 +7,7 @@
 }
 body {
 	margin: 0;
-	font-size: min(12vw, 2rem);
+	font-size: min(20px);
 }
 body::-webkit-scrollbar {
   width: 0.5em;
@@ -83,7 +83,7 @@ h1 {
 	height: 3.5rem;
 	width: 100%;
 	bottom: 0;
-	position: fixed;
+	position: absolute;
 }
 
 
