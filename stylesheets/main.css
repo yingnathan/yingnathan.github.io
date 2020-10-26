@@ -62,7 +62,8 @@ h1 {
 	position: sticky;
 	position: -webkit-sticky; /* Safari */
 	top: 0;
-	animation: headerAnimation 5s infinite;
+	min-height: 50px;
+	animation: headerAnimation 5s infinite
 }
 @keyframes headerAnimation {
   0% {
@@ -94,6 +95,7 @@ h1 {
 
 .headerTitle {
 	animation: headerTitleAnimation 5s infinite;
+	font-size: x-large;
 }
 
 @keyframes headerTitleAnimation {
