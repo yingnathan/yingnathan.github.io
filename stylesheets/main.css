@@ -1,6 +1,10 @@
 * {
 	font-family: 'News Cycle', sans-serif;
 	color: #5252e0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
 }
 .secondary {
 	color: #DCCEC0;
@@ -9,7 +13,7 @@ body {
 	margin: 0;
 	font-size: min(20px);
 }
-body::-webkit-scrollbar {
+/**body::-webkit-scrollbar {
   width: 0.5em;
 }
 
@@ -20,7 +24,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
-}
+}**/
 
 h1 {
 	font-size: min(14vw, 4rem);
@@ -55,6 +59,9 @@ h1 {
 }
 
 .header {
+	width: 100%;
+	height: 50px;
+	display: block;
 	z-index: 1;
 	font-size: 3vh;
 	background-color: #7cc7c0;
@@ -62,7 +69,6 @@ h1 {
 	position: sticky;
 	position: -webkit-sticky; /* Safari */
 	top: 0;
-	min-height: 50px;
 	animation: headerAnimation 5s infinite
 }
 @keyframes headerAnimation {
@@ -77,6 +83,41 @@ h1 {
   }
 }
 
+.innerHeader{
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logoContainer{
+	height: 100%;
+	float: left;
+}
+
+.navigation {
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+
+.navigation a:last-child{
+	padding-right: 0;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+}
+
 .footer {
 	padding: 3px;
 	font-size: 20px;
@@ -87,7 +128,6 @@ h1 {
 	position: absolute;
 }
 
-
 #footerContact {
 	text-decoration:none;
 	font-weight: bold;
@@ -96,6 +136,9 @@ h1 {
 .headerTitle {
 	animation: headerTitleAnimation 5s infinite;
 	font-size: x-large;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 @keyframes headerTitleAnimation {
